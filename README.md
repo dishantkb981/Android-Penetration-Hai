@@ -23,7 +23,7 @@ The checklist covers a range of topics, including:-)
 
 This checklist is intended as a starting point for penetration testers and bug bounty hunters to identify common security issues in Android applications. It is not a comprehensive guide to all possible security issues and should be used in conjunction with other resources and best practices.
 
-## Content For Android Penetration 
+## Content For Android Penetration(Dekh Bhai Yehi Sab Milega)
 
 - [Android Applications Penetration Testing Checklist (v1.1)](#android-applications-penetration-testing-checklist-v11)
 - [Important Tools](#important-tools)(Check By Going Downpage)
@@ -70,7 +70,7 @@ This checklist is intended as a starting point for penetration testers and bug b
 - [Important Links](#important-links)
 - [Intentionally Vulnerable Applications For Practice](#intentionally-vulnerable-applications-for-practice)
 
-## Android Applications Penetration Testing Checklist (v1.1)
+## Android Applications Penetration Testing Checklist (Mann Se Penetration Karo)
 
 | **C01** | **SSL Pinning**                                                                                                                                                                                                                                                      |       Discovered       |      Undiscovered      |
 | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------: | :--------------------: |
