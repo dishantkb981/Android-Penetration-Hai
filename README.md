@@ -25,7 +25,7 @@ This checklist is intended as a starting point for penetration testers and bug b
 
 ## Content For Android Penetration(Dekh Bhai Yehi Sab Milega)
 
-- [Android Applications Penetration Testing Checklist (v1.1)](#android-applications-penetration-testing-checklist-v11)
+- [Android Applications Penetration Testing Checklist](#android-applications-penetration-testing-checklist-v11)
 - [Important Tools](#important-tools)(Check By Going Downpage)
 - [Tools Installation/Setup](#tools-installationsetup)
 - [Prerequisites](#prerequisites)
