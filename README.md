@@ -1,9 +1,12 @@
 <a href='#' target="_blank"><img alt='android' src='https://img.shields.io/badge/Android_Checklist-100000?style=flat-square&logo=android&logoColor=white&labelColor=8FC965&color=5D9741'/></a>
 <a href='#' target="_blank"><img alt='android' src='https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff'/></a>
+<a href='#' target="_blank"><img alt='author' src='https://img.shields.io/badge/Author-DishuAndro-blueviolet?style=flat-square&logo=github&logoColor=white'/></a>
 
-# Android App Pentesting Checklist
+# 🛡️ Android App Pentesting Checklist
 
 **Welcome to the "Android App Penetration Testing Checklist" Repository!**
+
+**Author: DishuAndro**
 
 Explore the ultimate companion for Android app penetration testing, meticulously crafted to identify vulnerabilities in network, data, storage, and permissions effortlessly. This repository merges a comprehensive checklist of tasks and cutting-edge techniques, providing security professionals with a robust framework for a thorough security assessment of Android applications.
 
@@ -23,12 +26,12 @@ The checklist covers a range of topics, including:-)
 
 This checklist is intended as a starting point for penetration testers and bug bounty hunters to identify common security issues in Android applications. It is not a comprehensive guide to all possible security issues and should be used in conjunction with other resources and best practices.
 
-## Content For Android Penetration(Dekh Bhai Yehi Sab Milega)
+## 📋 Table of Contents
 
-- [Android Applications Penetration Testing Checklist](#android-applications-penetration-testing-checklist-v11)
-- [Important Tools](#important-tools)(Check By Going Downpage)
-- [Tools Installation/Setup](#tools-installationsetup)
-- [Prerequisites](#prerequisites)
+- 🛡️ [Android Applications Penetration Testing Checklist](#android-applications-penetration-testing-checklist-v11)
+- 🧰 [Important Tools](#important-tools)
+- ⚙️ [Tools Installation/Setup](#tools-installationsetup)
+- 🖥️ [Prerequisites](#prerequisites)
   - [Hardware requirements](#hardware-requirements)
   - [Software/Tools prerequisites](#softwaretools-prerequisites)
     - [1. Java (Jdk)](#1-java-jdk-link)
@@ -38,37 +41,37 @@ This checklist is intended as a starting point for penetration testers and bug b
     - [5. Android Debug Bridge (adb)](#5-android-debug-bridge-adb-link)
     - [6. Magisk](#6-magisk-link)
     - [7. KernalSU](#7-kernalsu-link)
-- [Mobile Security Framework (MobSF)](#mobile-security-framework-mobsf)
+- 🏗️ [Mobile Security Framework (MobSF)](#mobile-security-framework-mobsf)
   - [MobSF Installation on Docker](#mobsf-installation-on-docker)
   - [MobSF Installation on Physical Machine](#mobsf-installation-on-physical-machine)
-- [Drozer (on desktop)](#drozer-on-desktop)
-- [APKLeaks](#apkleaks)
-- [Apktool](#apktool)
-- [APKToolGUI](#apktoolgui)
-- [JADX](#jadx)
-- [JD-GUI](#jd-gui)
-- [Dex2Jar](#dex2jar)
-- [Objection](#objection)
-- [Burp Suite](#burp-suite)
-- [Radare2](#radare2)
-- [Nuclei](#nuclei)
-- [Zipalign](#zipalign)
-- [DB Browser for SQLite](#db-browser-for-sqlite)
-- [Frida Tools](#frida-tools)
-- [Frida Server (Magisk-Frida)](#frida-server-magisk-frida)
-- [Always Trust User Certs \& Burp-cert Magisk Modules](#always-trust-user-certs--burp-cert-magisk-modules)
-- [Fridump](#fridump)
-- [Useful Commands \& Tools Usage](#useful-commands--tools-usage)
-- [ADB Commands](#adb-commands)
-- [Frida Commands](#frida-commands)
-- [Objection Commands](#objection-commands)
-- [Drozer Commands](#drozer-commands)
-- [Terminology's](#terminologys)
-- [SSL Pinning](#ssl-pinning)
-- [KeyStore](#keystore)
-- [Memory Dump](#memory-dump)
-- [Important Links](#important-links)
-- [Intentionally Vulnerable Applications For Practice](#intentionally-vulnerable-applications-for-practice)
+- 🧑‍💻 [Drozer (on desktop)](#drozer-on-desktop)
+- 🕵️ [APKLeaks](#apkleaks)
+- 🛠️ [Apktool](#apktool)
+- 🖥️ [APKToolGUI](#apktoolgui)
+- 🧩 [JADX](#jadx)
+- 🧩 [JD-GUI](#jd-gui)
+- 🧩 [Dex2Jar](#dex2jar)
+- 🕵️ [Objection](#objection)
+- 🛡️ [Burp Suite](#burp-suite)
+- 🧠 [Radare2](#radare2)
+- 🧬 [Nuclei](#nuclei)
+- 🗜️ [Zipalign](#zipalign)
+- 🗄️ [DB Browser for SQLite](#db-browser-for-sqlite)
+- 🧬 [Frida Tools](#frida-tools)
+- 🧬 [Frida Server (Magisk-Frida)](#frida-server-magisk-frida)
+- 🛡️ [Always Trust User Certs & Burp-cert Magisk Modules](#always-trust-user-certs--burp-cert-magisk-modules)
+- 🧬 [Fridump](#fridump)
+- 🧑‍💻 [Useful Commands & Tools Usage](#useful-commands--tools-usage)
+- 🖥️ [ADB Commands](#adb-commands)
+- 🧬 [Frida Commands](#frida-commands)
+- 🕵️ [Objection Commands](#objection-commands)
+- 🧑‍💻 [Drozer Commands](#drozer-commands)
+- 📖 [Terminology's](#terminologys)
+- 🔒 [SSL Pinning](#ssl-pinning)
+- 🔑 [KeyStore](#keystore)
+- 🧠 [Memory Dump](#memory-dump)
+- 📚 [Important Links](#important-links)
+- 🧑‍💻 [Intentionally Vulnerable Applications For Practice](#intentionally-vulnerable-applications-for-practice)
 
 ## Android Applications Penetration Testing Checklist (Mann Se Penetration Karo)
 
@@ -192,7 +195,7 @@ This checklist is intended as a starting point for penetration testers and bug b
 
 | **C19** | **Background Screen Caching**                                                                                   |       Discovered       |      Undiscovered      |
 | :-----: | --------------------------------------------------------------------------------------------------------------- | :--------------------: | :--------------------: |
-|         | Screen caching is a mobile vulnerability, caused due to a performance/usability feature present in mobile OS’s. |                        |                        |
+|         | Screen caching is a mobile vulnerability, caused due to a performance/usability feature present in mobile OS's. |                        |                        |
 |    1    | Check for screenshots are taken when the application is sent to background                                      | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 
 | **C20** | **Insecure Firebase Database**                                                                                                                                  |       Discovered       |      Undiscovered      |
@@ -209,7 +212,7 @@ This checklist is intended as a starting point for penetration testers and bug b
 | **C22** | **Key-Checks in Dynamic Analysis**                                                                                                                                                      |       Discovered       |      Undiscovered      |
 | :-----: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------: | :--------------------: |
 |         | Some applications use the Android Screen Lock/Biometric Authentication to validate the user before providing any specific service or before launching the application's main interface. |                        |                        |
-|    1    | Checks for all possible the possible test cases that’s are applicable on API Check (Use a comprehensive API checklist)                                                                  | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
+|    1    | Checks for all possible the possible test cases that's are applicable on API Check (Use a comprehensive API checklist)                                                                  | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |    2    | Check for Broken Access Controls and Authentications (Checks mainly in server side)                                                                                                     | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |    3    | Checks for Server-Side Injections and Security misconfigurations                                                                                                                        | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
 |    4    | Check for Sensitive Data exposer                                                                                                                                                        | <ul><li>[ ] </li></ul> | <ul><li>[ ] </li></ul> |
@@ -1870,3 +1873,5 @@ In Android, a memory dump is a snapshot of the device's current system memory. I
 <br/>
 
 **I tried my best to enrich this checklist. Please feel free to share your key findings and knowledge. Thank you🙏**
+
+**Maintained by: DishuAndro**
